@@ -21,7 +21,7 @@ This project includes using Windows Server 2019 and Windows 10 to create a netwo
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
+Install Windows 2010 and Windows Server 2019 on VirtualBox: <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
