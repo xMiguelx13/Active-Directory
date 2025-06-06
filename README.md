@@ -37,8 +37,9 @@ Installing Windows Server 2019 and Windows 10 on computer: <br/>
  <img src="https://i.imgur.com/LsAdKbM.png" height="80%" width="80%" alt="Installing Windows Server 2019"/>
 <br />
 <br />
-Adding Windows Server 2019 to VirtualBox:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Adding Windows Server 2019 to VirtualBox:
+ Here, I am naming the server DC for Domain Controller as well as giving the server 2GB of memory and to run on 3 CPUs <br/>
+<img src="https://i.imgur.com/PxOJlXV.png" height="80%" width="80%" alt="Adding WS2019 to VB"/>
 <br />
 <br />
 Enter the number of passes: <br/>
