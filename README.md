@@ -33,7 +33,7 @@ Finally, we will start another virtual machine and install Windows 10. This will
 
 <p align="center">
 Installing Windows Server 2019 and Windows 10 on computer: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="[https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps](https://imgur.com/a/81cSUGn)"/>
 <br />
 <br />
 Adding Windows Server 2019 to VirtualBox:  <br/>
