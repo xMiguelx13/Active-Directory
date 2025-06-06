@@ -33,7 +33,8 @@ Finally, we will start another virtual machine and install Windows 10. This will
 
 <p align="center">
 Installing Windows Server 2019 and Windows 10 on computer: <br/>
-<img src="https://i.imgur.com/6L1uSQk.png" height="80%" width="80%" alt="Installing Windows Server 2019"/>
+<img src="https://i.imgur.com/6L1uSQk.png" height="80%" width="80%" alt="Installing Windows 10"/>
+ <img src="https://i.imgur.com/LsAdKbM.png" height="80%" width="80%" alt="Installing Windows Server 2019"/>
 <br />
 <br />
 Adding Windows Server 2019 to VirtualBox:  <br/>
