@@ -44,7 +44,7 @@ Adding Windows Server 2019 to VirtualBox:
 <br />
 In settings on the Windows Server 2019, I added on Adapter 1; NAT which will give me access to the outside internet, and then I added Adapter 2; Internal. 
  The internal network will give the clients access to the server: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/udpqPbj.png" height="80%" width="80%" alt="WS2019 Settings"/>
 <br />
 <br />
 Confirm your selection:  <br/>
