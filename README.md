@@ -51,6 +51,18 @@ For the next step, I installed Windows Server 2019 on a VM using VirtualBox:  <b
 <img src="https://i.imgur.com/mmgnN0o.png" height="80%" width="80%" alt="Installing Windows Server 2019"/>
 <br />
 <br />
+I then set up the NIC (Internal) internet within the network. Marking my IP as 172.016.000.001. My mask 255.255.255.0, and my DNS as pinging itself as 127.000.000.001:  <br/>
+<img src="https://i.imgur.com/siTBHIn.png" height="80%" width="80%" alt="VM"/>
+<br />
+<br />
+After setting up the IP address,  I created the Active Directory Domain Controller. Giving it the name "mydomain.com":  <br/>
+<img src="https://i.imgur.com/HXmS6g7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/YGPw2F2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Observe the wiped disk:  <br/>
+<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 Wait for process to complete (may take some time):  <br/>
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
@@ -62,7 +74,6 @@ Sanitization complete:  <br/>
 Observe the wiped disk:  <br/>
 <img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-
 <!--
  ```diff
 - text in red
