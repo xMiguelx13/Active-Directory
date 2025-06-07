@@ -56,12 +56,14 @@ I then set up the NIC (Internal) internet within the network. Marking my IP as 1
 <br />
 <br />
 After setting up the IP address,  I created the Active Directory Domain Controller. Giving it the name "mydomain.com":  <br/>
-<img src="https://i.imgur.com/HXmS6g7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <img src="https://i.imgur.com/YGPw2F2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/HXmS6g7.png" height="80%" width="80%" alt="VM"/>
+ <img src="https://i.imgur.com/YGPw2F2.png" height="80%" width="80%" alt="VM"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Now it is time to set up an admin account instead of using the one windows provides
+ In order to do this, we had to create a new group within the system called "_ADMINS". We then added user mrayas (my name) and moved the user to the admins folder.:  <br/>
+<img src="https://i.imgur.com/8jsLNrC.png" height="80%" width="80%" alt="VM"/>
+ <img src="https://i.imgur.com/Y6F9rGj.png" height="80%" width="80%" alt="VM"/>
 </p>
 Wait for process to complete (may take some time):  <br/>
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
