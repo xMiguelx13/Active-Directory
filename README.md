@@ -47,8 +47,8 @@ In settings on the Windows Server 2019, I added on Adapter 1; NAT which will giv
 <img src="https://i.imgur.com/udpqPbj.png" height="80%" width="80%" alt="WS2019 Settings"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+For the next step, I installed Windows Server 2019 on a VM using VirtualBox:  <br/>
+<img src="https://i.imgur.com/mmgnN0o.png" height="80%" width="80%" alt="Installing Windows Server 2019"/>
 <br />
 <br />
 Wait for process to complete (may take some time):  <br/>
