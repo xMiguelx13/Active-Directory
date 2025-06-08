@@ -63,14 +63,19 @@ After setting up the IP address,  I created the Active Directory Domain Controll
 Now it is time to set up an admin account instead of using the one windows provides
  In order to do this, we had to create a new group within the system called "_ADMINS". We then added user mrayas (my name) and moved the user to the admins folder.:  <br/>
 <img src="https://i.imgur.com/8jsLNrC.png" height="80%" width="80%" alt="VM"/>
- <img src="https://i.imgur.com/Y6F9rGj.png" height="80%" width="80%" alt="VM"/>
+<img src="https://i.imgur.com/Y6F9rGj.png" height="80%" width="80%" alt="VM"/>
+ Now we will install RAT (Remote Access Server)/NAS (Network Access Translation) in order to allow our client from Windows 10 to be on the network and have access to the internet. :  <br/>
+<img src="https://i.imgur.com/2mBfzAC.png" height="80%" width="80%" alt="VM"/>
+<img src="https://i.imgur.com/QakoxT5.png" height="80%" width="80%" alt="VM"/>
+
+
+
+ 
 </p>
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 <br />
 <br />
 Observe the wiped disk:  <br/>
