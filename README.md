@@ -64,9 +64,12 @@ Now it is time to set up an admin account instead of using the one windows provi
  In order to do this, we had to create a new group within the system called "_ADMINS". We then added user mrayas (my name) and moved the user to the admins folder.:  <br/>
 <img src="https://i.imgur.com/8jsLNrC.png" height="80%" width="80%" alt="VM"/>
 <img src="https://i.imgur.com/Y6F9rGj.png" height="80%" width="80%" alt="VM"/>
- Now we will install RAT (Remote Access Server)/NAS (Network Access Translation) in order to allow our client from Windows 10 to be on the network and have access to the internet. :  <br/>
+Now we will install RAT (Remote Access Server)/NAS (Network Access Translation) in order to allow our client from Windows 10 to be on the network and have access to the internet. :  <br/>
 <img src="https://i.imgur.com/2mBfzAC.png" height="80%" width="80%" alt="VM"/>
 <img src="https://i.imgur.com/QakoxT5.png" height="80%" width="80%" alt="VM"/>
+Following the installation of RAT/NAS, we will set up our DHCP which will allow a client (user) to join our network and sign on. Here, we w ill set the scope from: 172.16.0.100 to 172.16.0.200.
+<img src="https://i.imgur.com/G47ArB6.png" height="80%" width="80%" alt="VM"/>
+<img src="https://i.imgur.com/XPdMu7E.png" height="80%" width="80%" alt="VM"/>
 
 
 
