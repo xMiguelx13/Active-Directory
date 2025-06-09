@@ -70,6 +70,7 @@ Now we will install RAT (Remote Access Server)/NAS (Network Access Translation) 
 Following the installation of RAT/NAS, we will set up our DHCP which will allow a client (user) to join our network and sign on. Here, we w ill set the scope from: 172.16.0.100 to 172.16.0.200.
 <img src="https://i.imgur.com/G47ArB6.png" height="80%" width="80%" alt="VM"/>
 <img src="https://i.imgur.com/XPdMu7E.png" height="80%" width="80%" alt="VM"/>
+Ones we have successfully set up our Active Directory Domain Controller, we will use PowerShell in order to add 1,000 random names into our Server. This will serve as the "users" or clients within our organization.
 
 
 
