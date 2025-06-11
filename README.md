@@ -34,7 +34,7 @@ Finally, we will start another virtual machine and install Windows 10. This will
 <p align="center">
 Installing Windows Server 2019 and Windows 10 on computer: <br/>
 <img src="https://i.imgur.com/6L1uSQk.png" height="80%" width="80%" alt="Installing Windows 10"/>
- <img src="https://i.imgur.com/LsAdKbM.png" height="80%" width="80%" alt="Installing Windows Server 2019"/>
+<img src="https://i.imgur.com/LsAdKbM.png" height="80%" width="80%" alt="Installing Windows Server 2019"/>
 <br />
 <br />
 Adding Windows Server 2019 to VirtualBox:
@@ -57,19 +57,25 @@ I then set up the NIC (Internal) internet within the network. Marking my IP as 1
 <br />
 After setting up the IP address,  I created the Active Directory Domain Controller. Giving it the name "mydomain.com":  <br/>
 <img src="https://i.imgur.com/HXmS6g7.png" height="80%" width="80%" alt="VM"/>
- <img src="https://i.imgur.com/YGPw2F2.png" height="80%" width="80%" alt="VM"/>
+<img src="https://i.imgur.com/YGPw2F2.png" height="80%" width="80%" alt="VM"/>
 <br />
 <br />
 Now it is time to set up an admin account instead of using the one windows provides
- In order to do this, we had to create a new group within the system called "_ADMINS". We then added user mrayas (my name) and moved the user to the admins folder.:  <br/>
+In order to do this, we had to create a new group within the system called "_ADMINS". We then added user mrayas (my name) and moved the user to the admins folder.:  <br/>
 <img src="https://i.imgur.com/8jsLNrC.png" height="80%" width="80%" alt="VM"/>
 <img src="https://i.imgur.com/Y6F9rGj.png" height="80%" width="80%" alt="VM"/>
+<br />
+<br />
 Now we will install RAT (Remote Access Server)/NAS (Network Access Translation) in order to allow our client from Windows 10 to be on the network and have access to the internet. :  <br/>
 <img src="https://i.imgur.com/2mBfzAC.png" height="80%" width="80%" alt="VM"/>
 <img src="https://i.imgur.com/QakoxT5.png" height="80%" width="80%" alt="VM"/>
+<br />
+<br />
 Following the installation of RAT/NAS, we will set up our DHCP which will allow a client (user) to join our network and sign on. Here, we w ill set the scope from: 172.16.0.100 to 172.16.0.200.
 <img src="https://i.imgur.com/G47ArB6.png" height="80%" width="80%" alt="VM"/>
 <img src="https://i.imgur.com/XPdMu7E.png" height="80%" width="80%" alt="VM"/>
+<br />
+<br />
 Ones we have successfully set up our Active Directory Domain Controller, we will use PowerShell in order to add 1,000 random names into our Server. This will serve as the "users" or clients within our organization.
 
 
