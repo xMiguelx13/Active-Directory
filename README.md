@@ -76,7 +76,10 @@ Following the installation of RAT/NAS, we will set up our DHCP which will allow 
 <img src="https://i.imgur.com/XPdMu7E.png" height="80%" width="80%" alt="VM"/>
 <br />
 <br />
-Ones we have successfully set up our Active Directory Domain Controller, we will use PowerShell in order to add 1,000 random names into our Server. This will serve as the "users" or clients within our organization.
+Ones we have successfully set up our Active Directory Domain Controller, we will use PowerShell in order to add 1,000 random names into our Server. This will serve as the "users" or clients within our organization. In this list, I will also include my name (Miguel Rayas) to create a regular user within the organization.
+<img src="https://i.imgur.com/Ajxogpq.png" height="80%" width="80%" alt="VM"/>
+<img src="https://i.imgur.com/doUPpr6.png" height="80%" width="80%" alt="VM"/>
+<img src="https://i.imgur.com/guvUCFj.png" height="80%" width="80%" alt="VM"/>
 
 
 
