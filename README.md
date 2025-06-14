@@ -82,7 +82,12 @@ Ones we have successfully set up our Active Directory Domain Controller, we will
 <img src="https://i.imgur.com/guvUCFj.png" height="80%" width="80%" alt="VM"/>
 <br />
 <br />
-In the final step, we will create a Windows 10 VM that will serve as a client of the network we created above. 
+In the final step, we will create a Windows 10 VM that will serve as a client of the network we created above.
+
+<br />
+<br />
+We did have an issue because the client was not wanting to connect to our DNS server for some reason.(First picture) So what I did was restart the DNS server on the Domain Controller and went back to the client and it worked.
+<img src="https://i.imgur.com/igDtS91.png" height="80%" width="80%" alt="VM"/>
 
 
  
