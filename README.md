@@ -80,7 +80,9 @@ Ones we have successfully set up our Active Directory Domain Controller, we will
 <img src="https://i.imgur.com/Ajxogpq.png" height="80%" width="80%" alt="VM"/>
 <img src="https://i.imgur.com/doUPpr6.png" height="80%" width="80%" alt="VM"/>
 <img src="https://i.imgur.com/guvUCFj.png" height="80%" width="80%" alt="VM"/>
-
+<br />
+<br />
+In the final step, we will create a Windows 10 VM that will serve as a client of the network we created above. 
 
 
  
