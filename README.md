@@ -86,7 +86,7 @@ In the final step, we will create a Windows 10 VM that will serve as a client of
 
 <br />
 <br />
-(Troubleshooting) We did have an issue because the client was not wanting to connect to our DNS server for some reason.(First picture) So what I found was that private IP addresses in a lab do not like to connect to themselves. To solve this issue, I double checked my steps to make sure I had the DNS server role in place. Next, under DHCP manager, I made sure the option "003 Router" was in place with the internal IP of (192.168.0.1). Secondly, I made sure that option "006 DNS Servers" also had our DC's IP Address. This pretty much told our client to use the DC a sour DNS server Lastly, I made sure to restart the DNS server and renew our ipconfig inside of the Command Prompt in the Client VM. For proof that we successfully connected to the internet, we were able to ping 'www.google.com'.
+(Troubleshooting) We did have an issue because the client was not wanting to connect to our DNS server for some reason.(First picture) So what I found was that private IP addresses in a lab do not like to connect to themselves. To solve this issue, I double checked my steps to make sure I had the DNS server role in place. Next, under DHCP manager, I made sure the option "003 Router" was in place with the internal IP of (192.168.0.1). Secondly, I made sure that option "006 DNS Servers" also had our DC's IP Address. This pretty much told our client to use the DC a sour DNS server Lastly, I made sure to restart the DNS server and renew our ipconfig inside of the Command Prompt in the Client VM. For proof that we successfully connected to the internet, we were able to ping 'www.google.com'. </br>
 <img src="https://i.imgur.com/igDtS91.png" height="80%" width="80%" alt="VM"/>
 <img src="https://i.imgur.com/e6ROTCu.png" height="80%" width="80%" alt="VM"/>
 <img src="https://i.imgur.com/GKA9IRn.png" height="80%" width="80%" alt="VM"/>
@@ -94,6 +94,11 @@ In the final step, we will create a Windows 10 VM that will serve as a client of
 <img src="https://i.imgur.com/IvZLqjN.png" height="80%" width="80%" alt="VM"/>
 <br />
 <br />
+In the final steps, we will rename the computer to "CLIENT1" and attempt to join the domain "mydomain.com". After successfully joining the domain, we will go back to the DHCP manager in the DC VM and make sure that the computer is apart of the network we have created. As you can see, everything looks great! </br>
+<img src="https://i.imgur.com/CzlG2eq.png" height="80%" width="80%" alt="VM"/>
+<img src="https://i.imgur.com/Y4BUNrl.png" height="80%" width="80%" alt="VM"/>
+<img src="https://i.imgur.com/z9gRY7V.png" height="80%" width="80%" alt="VM"/>
+
 
  
 </p>
