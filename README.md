@@ -6,13 +6,13 @@
 This project consists of using Oracle VirtualBox with Windows Server 2019 and Windows 10 to create a network and add users using PowerShell in an automated way to the system. 
 
 
-Here, we will create a Domain Controller (DC) inside of a Virtual Machine, that will house the network machines' two network adapters. One of the network adapters will connect to the internet, while the other one will connect to the private network created. On this DC we will install Windows Server 2019.
-On the DC, we will create our domain as "mydomain.com" and install Active  Directory. We will then configure NAT and Routing so that the inside Active Directory can get access to the internet.
+Here, we will create a Domain Controller (DC) inside of a Virtual Machine, that will house the network machines' two network adapters. One of the network adapters will connect to the internet, while the other one will connect to the private network created. This will allow for the Windows 10 Client to connect to the internet via the DC network. On this DC we will install Windows Server 2019.
+On the DC, we will create our domain as "mydomain.com" and install Active Directory. We will then configure NAT and Routing so that the inside Active Directory can get access to the internet.
 We will also set up a DHCP on the DC, so that clients can get on the network.
 
 We will then use PowerShell to add users into the Active Directory.
 
-Finally, we will start another virtual machine and install Windows 10. This will have the private users that will go into the network we have created above.
+Finally, we will start another virtual machine and install Windows 10. This will have the private users that will go into the network we have created above. Here, we will make sure other users are able to log in and connect to the internet.
 
 
 <br />
