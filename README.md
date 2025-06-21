@@ -42,7 +42,7 @@ Adding Windows Server 2019 to VirtualBox:
 <img src="https://i.imgur.com/PxOJlXV.png" height="80%" width="80%" alt="Adding WS2019 to VB"/>
 <br />
 <br />
-In settings on the Windows Server 2019, I added on Adapter 1; NAT which will give me access to the outside internet, and then I added Adapter 2; Internal. 
+In settings on the Windows Server 2019, I added on Adapter 1; NAT which will give me access to the outside internet, and then I added Adapter 2; Internal. This Adapter 2 will serve as the conduit between the outside internet and our clients. 
  The internal network will give the clients access to the server: <br/>
 <img src="https://i.imgur.com/udpqPbj.png" height="80%" width="80%" alt="WS2019 Settings"/>
 <br />
@@ -51,7 +51,7 @@ For the next step, I installed Windows Server 2019 on a VM using VirtualBox:  <b
 <img src="https://i.imgur.com/mmgnN0o.png" height="80%" width="80%" alt="Installing Windows Server 2019"/>
 <br />
 <br />
-I then set up the NIC (Internal) internet within the network. Marking my IP as 172.016.000.001. My mask 255.255.255.0, and my DNS as pinging itself as 127.000.000.001:  <br/>
+I then set up the NIC (Internal) internet within the network. Marking my IP as 172.16.0.1. My mask 255.255.255.0, and my DNS as pinging itself as 127.0.0.1:  <br/>
 <img src="https://i.imgur.com/siTBHIn.png" height="80%" width="80%" alt="VM"/>
 <br />
 <br />
@@ -61,12 +61,12 @@ After setting up the IP address,  I created the Active Directory Domain Controll
 <br />
 <br />
 Now it is time to set up an admin account instead of using the one windows provides
-In order to do this, we had to create a new group within the system called "_ADMINS". We then added user mrayas (my name) and moved the user to the admins folder.:  <br/>
+In order to do this, we had to create a new group within the system called "_ADMINS". We then added user mrayas (my name) and moved the user to the admins folder:  <br/>
 <img src="https://i.imgur.com/8jsLNrC.png" height="80%" width="80%" alt="VM"/>
 <img src="https://i.imgur.com/Y6F9rGj.png" height="80%" width="80%" alt="VM"/>
 <br />
 <br />
-Now we will install RAT (Remote Access Server)/NAS (Network Access Translation) in order to allow our client from Windows 10 to be on the network and have access to the internet. :  <br/>
+Now we will install RAT (Remote Access Server)/NAS (Network Access Translation) in order to allow our client from Windows 10 to be on the network and have access to the internet:  <br/>
 <img src="https://i.imgur.com/2mBfzAC.png" height="80%" width="80%" alt="VM"/>
 <img src="https://i.imgur.com/QakoxT5.png" height="80%" width="80%" alt="VM"/>
 <br />
@@ -86,7 +86,7 @@ In the final step, we will create a Windows 10 VM that will serve as a client of
 
 <br />
 <br />
-We did have an issue because the client was not wanting to connect to our DNS server for some reason.(First picture) So what I did was restart the DNS server on the Domain Controller and went back to the client and it worked. For proof that we successfully connected to the internet, we were able to ping 'www.google.com'.
+(Troubleshooting) We did have an issue because the client was not wanting to connect to our DNS server for some reason.(First picture) So what I found was that private IP addresses in a lab do not like to connect to themselves. To solve this issue, I double checked my steps to make sure I had the DNS server role in place. Next, under DHCP manager, I made sure the option "003 Router" was in place with the internal IP of (192.168.0.1). Secondly, I made sure that option "006 DNS Servers" also had our DC's IP Address. This pretty much told our client to use the DC a sour DNS server. For proof that we successfully connected to the internet, we were able to ping 'www.google.com'.
 <img src="https://i.imgur.com/igDtS91.png" height="80%" width="80%" alt="VM"/>
 <img src="https://i.imgur.com/GKA9IRn.png" height="80%" width="80%" alt="VM"/>
 <img src="https://i.imgur.com/dTpdpT8.png" height="80%" width="80%" alt="VM"/>
