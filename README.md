@@ -12,7 +12,9 @@ We will also set up a DHCP on the DC, so that clients can get on the network.
 
 We will then use PowerShell to add users into the Active Directory.
 
-Finally, we will start another virtual machine and install Windows 10. This will have the private users that will go into the network we have created above. Here, we will make sure other users are able to log in and connect to the internet.
+Finally, we will start another virtual machine and install Windows 10. This will have the private users that will go into the network we have created above. Here, we will make sure other users are able to log in and connect to the internet. This VM we will name Client1, and we will also reset a password for the user (mrayas).
+
+This would conclude the project.
 
 
 <br />
@@ -107,7 +109,12 @@ Finally, to make sure the new users are able to log in, we will attempt to log i
 <br />
 Lastly, to double check that the client is under our DC ecosysteme, we will go back out to our DHCP manager inside our DC and go into our leases. Here, we should see that there should be a lease taken up by our client (which is currently running).
 <img src="https://i.imgur.com/deZxFJX.png" height="80%" width="80%" alt="VM"/>
- 
+<br />
+<br />
+For the final piece, we changed the password for the user (mrayas). Doing this, we have also practiced what would seem like the most common problem within IT. In order to do this, we went to manage users and computers in our DC. Under _USERS, we found the user (mrayas), and reset the password.
+<img src="https://i.imgur.com/S12R2RP.png" height="80%" width="80%" alt="VM"/>
+<br />
+<br />
 </p>
 
 <br />
