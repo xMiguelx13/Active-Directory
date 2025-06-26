@@ -105,6 +105,8 @@ Finally, to make sure the new users are able to log in, we will attempt to log i
 <img src="https://i.imgur.com/Y4BUNrl.png" height="80%" width="80%" alt="VM"/>
 <br />
 <br />
+Lastly, to double check that the client is under our DC ecosysteme, we will go back out to our DHCP manager inside our DC and go into our leases. Here, we should see that there should be a lease taken up by our client (which is currently running).
+<img src="https://i.imgur.com/deZxFJX.png" height="80%" width="80%" alt="VM"/>
  
 </p>
 
