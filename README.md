@@ -98,10 +98,13 @@ In the final steps, we will rename the computer to "CLIENT1" and attempt to join
 <img src="https://i.imgur.com/CzlG2eq.png" height="80%" width="80%" alt="VM"/>
 <img src="https://i.imgur.com/Y4BUNrl.png" height="80%" width="80%" alt="VM"/>
 <img src="https://i.imgur.com/z9gRY7V.png" height="80%" width="80%" alt="VM"/>
+<br />
+<br />
 Finally, to make sure the new users are able to log in, we will attempt to log into our CLIENT1 computer with a different user that is in our system. (Do remember that our admin accounts start with an "a-" within the username.</br>
 <img src="https://i.imgur.com/CzlG2eq.png" height="80%" width="80%" alt="VM"/>
 <img src="https://i.imgur.com/Y4BUNrl.png" height="80%" width="80%" alt="VM"/>
-
+<br />
+<br />
  
 </p>
 
